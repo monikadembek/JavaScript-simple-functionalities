@@ -1,0 +1,1 @@
+This repository includes simple scripts written in JavaScript
