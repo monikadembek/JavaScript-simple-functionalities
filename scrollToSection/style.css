@@ -1,0 +1,114 @@
+*, 
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222D30;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+p {
+  font-family: 'Droid Serif', serif;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  font-style: italic;
+  margin: 60px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+header {
+  width: 100%;
+  height: calc(100vh - 80px);
+  padding: 20%;
+}
+
+.mainNav {
+  width: 100%;
+  height: 80px;
+  background-color: #090C0D;
+  line-height: 80px;
+  text-align: center;
+}
+
+.mainNav__list li {
+  display: inline-block;
+}
+
+.mainNav__list a {
+  padding: 0 40px;
+  display: block;
+}
+
+.mainNav__list a:hover {
+  background-color: #263940; 
+}
+
+.section {
+  max-width: 60%;
+  margin: 0 auto 8rem;
+}
+
+.section__header {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  text-align: left;
+  margin: 2rem 0;
+}
+
+.stickyNav .mainNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    line-height: 60px;  
+}
+
+.btn-top {
+  display: none;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  border: 2px solid #888;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  z-index: 100;
+  cursor: pointer;
+  font-size: 1.7rem;
+  padding-bottom: 5px;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+}
