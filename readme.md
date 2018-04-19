@@ -3,3 +3,5 @@ StickyNav: <br>
 https://monikadembek.github.io/JavaScript-simple-functionalities/stickyNav/index.html <br><br>
 Accordion: <br>
 https://monikadembek.github.io/JavaScript-simple-functionalities/accordion/index.html <br><br>
+ScrollToSection script containing also scroll to top: <br>
+https://monikadembek.github.io/JavaScript-simple-functionalities/scrollToSection/index.html <br><br>
