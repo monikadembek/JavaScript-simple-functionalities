@@ -7,3 +7,5 @@ ScrollToSection script containing also scroll to top: <br>
 https://monikadembek.github.io/JavaScript-simple-functionalities/scrollToSection/index.html <br><br>
 Counter script, animated when visible in the viewport: <br>
 https://monikadembek.github.io/JavaScript-simple-functionalities/counter/index.html <br><br>
+Animate elements when visible in the viewport: <br>
+https://monikadembek.github.io/JavaScript-simple-functionalities/animateInViewport/index.html <br><br>
