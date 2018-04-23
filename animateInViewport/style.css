@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background: #603e51;
+	color: #ffffff;
+	font-family: 'Droid Serif', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+header {
+	padding: 6rem 2rem;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 3rem;
+}
+
+h2 {
+	font-family: 'Droid Serif', sans-serif;
+	font-size: 2.5rem;
+}
+
+p {
+	font-size: 1.3rem;
+	line-height: 1.7;
+	margin-bottom: 3rem;
+}
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.text__container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.text__container > * {
+	flex-basis: 50%;
+	padding: 3rem;
+}
+
+.anim {
+	opacity: 0;
+	transition: all 0.4s;
+}
+
+.anim--top {
+	transform: translate3d(0, -50px, 0);
+}
+
+.anim--bottom {
+	transform: translate3d(0, 50px, 0);
+}
+
+.anim--left {
+	transform: translate3d(-50px, 0, 0);
+}
+
+.anim--right {
+	transform: translate3d(50px, 0, 0);
+}
+
+.anim.anim-start {
+	opacity: 1;
+	transform: translate3d(0, 0 ,0);
+}
+
+
